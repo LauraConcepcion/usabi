@@ -14,13 +14,18 @@ header {
 section { 
 	font-size: 120%; 
 	padding: 20px; 
-	background: #ededed;} 
+	background: #ededed;
+	height: 100%;
+	overflow-y:auto; /* Hace que se ajuste a la columna más alta en ff */
+} 
 section h1 {
-	margin-top: 300px;
-	font-size: 200%;}
+	font-size: 200%;
+}
 section h6{
 	font-weight: normal;
 	text-align: justify;
+	font-size: 100%;
+
 }
 /*Pie de página */
 footer {	text-align: right; 
@@ -33,7 +38,7 @@ footer {	text-align: right;
 	margin: 0; 
 	font-size: 120%;
 	padding: 0 20px; 
-	font-weight: bold;} 
+} 
 /* Links */a{ 
 	color: #09c; 
 	text-decoration: none;}a:hover { 
@@ -45,29 +50,35 @@ a:visited {
 /* Navigation */
 /* Opciones del menú */
 nav { 
-	float: right;}nav { 
-	padding: 0; 
+	float: right;
 	white-space: nowrap;
 	width: 100%; 
-}nav ul { 
-	background-color: #000000; 
-	margin: 0; 
-	padding: 0;
-	font-size: 120%;
-}nav ul li { 
-	vertical-align: middle;
-	list-style-type: none; 
-	display: inline-block; 
-}nav ul li a { 
-	padding: 0 20px; 
-	font-weight: bold;} 
-nav ul li a:visited {
+	background-color: #000; 
+	height: 102px;
 	color: #6f448b;
-} 
-nav ul li a:hover {
-	font-size: 120%;}
-nav ul li img {
+
+}nav ul { 
+	font-size: 140%;
+	display: inline-block;
+	list-style: none;
+	vertical-align:top;
+	margin-top: 40px;
+	width: 70px;}nav ul li { 
+	display: none;
+	border: 3px solid #000;
+}
+nav ul:hover li{
+	visibility: visible;
+	display: compact;
+	width: 200px;
+	background-color: #000; 
+	position: relative; /*Para que se vea sobre la imagen de promoción*/
+}
+
+nav img {
 	padding: 0 0px; 
+	float:left;
+	margin: 20px;
 
 }
 
@@ -89,13 +100,11 @@ nav ul li img {
 
 /*Sección promociones*/
 .promocion {
-	margin-top: 15px; 
-	margin-left: 30px; 
-	margin-right: 30px;
-	margin-bottom: 20px;
-	background-color: #6f448b; 
-	width: 94%; 
 
+	background-color: #6f448b; 
+	width: 98%; 
+	padding: 10px;
+	margin-bottom: 25px;
 
 }
 .promocion h1{
@@ -117,4 +126,23 @@ nav ul li img {
 .promocion img{
 	float: right;
 	margin: 10px;
+}
+/*FIN Sección promociones*/
+
+.columna3{
+	width: 30%;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius:	10px;
+	background-color: #DDD;
+}
+.columna2{
+	width: 45%;
+	margin: 10px;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius:	10px;
+	background-color: #DDD;
 }

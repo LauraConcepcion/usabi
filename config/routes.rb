@@ -1,9 +1,12 @@
 FisioApp::Application.routes.draw do
-	resources :users
+  
+  match '/my_mailer', :to =>'pages#my_mailer'
 	match '/signup', :to => 'users#new'
 	match '/servicios', :to => 'pages#servicios' 
-	match '/portafolio',	:to => 'pages#portafolio' 
-	match '/contacto',	:to => 'pages#contacto' 
+	match '/aplicacionesweb',	:to => 'pages#aplicacionesweb' 
+	match '/servicios', :to => 'pages#servicios' 
+  match '/serviciosweb', :to => 'pages#serviciosweb' 
+  match '/paquetesweb', :to => 'pages#paquetesweb' 
 	root :to => 'pages#inicio'
   
   # The priority is based upon order of creation:

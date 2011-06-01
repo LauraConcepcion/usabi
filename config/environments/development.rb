@@ -1,4 +1,4 @@
-FisioApp::Application.configure do
+Usabi::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
@@ -22,5 +22,15 @@ FisioApp::Application.configure do
 
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+  :address              => "smtp.gmail.com",
+  :port                 => 587,
+  :domain               => 'baci.lindsaar.net',
+  :user_name            => 'bruxa.bruxa',
+  :password             => 'jjfa023',
+  :authentication       => 'plain',
+  :enable_starttls_auto => true  }
 end
 

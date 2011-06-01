@@ -1,10 +1,13 @@
 <header>
 	<nav class="round">
-		<ul class="round"> 
-			<li class="img"><%= link_to logo, root_path %></li>
-			<li><%= link_to "Inicio", root_path %></li> 
-			<li><%= link_to "Diseño Web", servicios_path %></li> 
-			<li><%= link_to "Portafolio", portafolio_path %></li>
-			<li><%= link_to "Contacto", contacto_path %></li>
-		</ul> 
+		<%= link_to logo, root_path %>
+		<ul> <%= link_to "Inicio", root_path %></ul>
+		<ul><%= link_to "Servicios", servicios_path %>
+			<li><%= link_to "Aplicaciones Web", aplicacionesweb_path %></li> 
+			<li><%= link_to "Apps para smartphones", root_path %></li>
+			<li><%= link_to "Paquetes web", paquetesweb_path %></li>
+			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+
+		</ul>
+		<ul><%= link_to "Contacto", my_mailer_path %></ul> 
 	</nav></header>

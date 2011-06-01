@@ -1,4 +1,4 @@
-FisioApp::Application.configure do
+Usabi::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # The test environment is used exclusively to run your application's
@@ -32,4 +32,13 @@ FisioApp::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+  :address              => "smtp.gmail.com",
+  :port                 => 587,
+  :domain               => 'baci.lindsaar.net',
+  :user_name            => 'bruxa.bruxa',
+  :password             => 'jjfa023',
+  :authentication       => 'plain',
+  :enable_starttls_auto => true  }
 end

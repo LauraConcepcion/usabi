@@ -8,7 +8,13 @@ class PagesController < ApplicationController
   def servicios
   	@title = "Servicios"
   end
-    def portafolio
-  	@title = "Portafolio"
+  def paquetesweb
+    @title = "Paquetes Web"
+  end
+  def serviciosweb
+    @title = "Servicios Web"
+  end
+    def aplicacionesweb
+  	@title = "aplicacionesweb"
   end
 end
