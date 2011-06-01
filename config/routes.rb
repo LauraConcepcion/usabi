@@ -7,6 +7,7 @@ FisioApp::Application.routes.draw do
 	match '/servicios', :to => 'pages#servicios' 
   match '/serviciosweb', :to => 'pages#serviciosweb' 
   match '/paquetesweb', :to => 'pages#paquetesweb' 
+  match '/appsmartphones', :to => 'pages#appsmartphones'
 	root :to => 'pages#inicio'
   
   # The priority is based upon order of creation:

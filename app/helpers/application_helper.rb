@@ -24,5 +24,13 @@ module ApplicationHelper
   def plantilla5
     image_tag("plantilla5.png", :alt => "Web Personalizada", :class => "ejemploimg")
   end	
-	
+	def modulos
+	  image_tag("appmodulares.png", :alt => "Aplicaciones modulares")
+	end
+	def seo
+	  image_tag("seo.png", :alt => "Posicionamiento en Internet")
+	end
+	 def iphone
+    image_tag("iphone-sdk.png", :alt => "Desarrollo para Android/iOs")
+  end
 end

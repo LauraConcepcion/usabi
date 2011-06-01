@@ -145,7 +145,23 @@ nav img {
 	-webkit-border-radius: 10px;
 	border-radius:	10px;
 	background-color: #DDD;
+	height: 500px;
 }
+.columnapeque{
+	width: 45%;
+	margin: 10px;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius:	10px;
+	background-color: #DDD;
+	height: 300px;
+}
+.columnapeque img{
+	height: 250px;
+	width: 300px;
+}
+
 
 /* Para los errores de casillas */
 .field_with_errors {
@@ -182,5 +198,8 @@ nav img {
 }
 .ejemploimg{
 	width: 300px;
+	margin-top: 20px;	
+}
+
 	
 }
