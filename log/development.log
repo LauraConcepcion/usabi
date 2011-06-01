@@ -16183,3 +16183,33 @@ Rendered layouts/_header.html.erb (2.1ms)
 Rendered layouts/_footer.html.erb (0.2ms)
 Rendered pages/serviciosweb.html.erb within layouts/application (10.5ms)
 Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/servicios" for 127.0.0.1 at Wed Jun 01 18:42:16 +0200 2011
+  Processing by PagesController#servicios as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Rendered pages/servicios.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/servicios" for 127.0.0.1 at Wed Jun 01 18:42:41 +0200 2011
+  Processing by PagesController#servicios as HTML
+Rendered layouts/_promotion.html.erb (0.6ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Rendered pages/servicios.html.erb within layouts/application (66.3ms)
+Completed 200 OK in 71ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/servicios" for 127.0.0.1 at Wed Jun 01 18:42:55 +0200 2011
+  Processing by PagesController#servicios as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/servicios.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
