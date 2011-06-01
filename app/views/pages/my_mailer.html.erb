@@ -18,7 +18,7 @@
 	<p>Your name <br/>
 	<%= text_field 'comment', 'name' , :size => 36 %></p>
 	<!-- You might want to make subject a drop down select box -->
-	<p>Your inquiry type <br/>
+ 	<p>Your inquiry type <br/>
 	<%= text_field 'comment', 'subject' , :size => 36 %></p>
 	<p>Your Email (is validated)<br/>
 	<%= text_field 'comment', 'email' , :size => 36 %></p>
@@ -26,5 +26,10 @@
 	<%= text_area 'comment', 'message', :cols => 42, :rows => 9  %></p>
 	<br/><br/>
 	<!-- Before you submit, check if the values are there -->
-	<%= submit_tag 'Report Error', :onclick => 'checkForm();' , :type => 'button' %>
-</form>
+    <%= submit_tag "Send" %>
+
+ 	<!--<%= submit_tag 'Report Error', :onclick => 'checkForm();' , :type => 'button' %>-->
+</form> -->
+
+
+

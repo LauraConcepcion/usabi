@@ -29,5 +29,12 @@ class NotifiersController < ApplicationController
     redirect_to(:action => 'index')
     end
   end
+ # def send_contact_form 
+    # if request.post?
+      # Mailer::deliver_message(params[:author])
+      # redirect_to :action => 'contact'
+      # flash[:notice] = "Thanks for your message!"
+    # end
+  # end
 end
   

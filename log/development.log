@@ -13324,3 +13324,120 @@ Rendered layouts/_header.html.erb (2.2ms)
 Rendered layouts/_footer.html.erb (0.2ms)
 Rendered pages/my_mailer.html.erb within layouts/application (10.0ms)
 Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 10:56:07 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (46.1ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 61ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at Wed Jun 01 10:56:08 +0200 2011
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (6.6ms)
+Completed   in 11ms
+
+ActionView::Template::Error (undefined method `start_form_tag' for #<#<Class:0x104439ea0>:0x104437830>):
+    1: <%= start_form_tag :action => 'send_contact_form'  %>
+    2:   
+    3:     <h2>Name:</h2>        
+    4:     <%= text_field "author", "name" %>
+  app/views/pages/contact.html.erb:1:in `_app_views_pages_contact_html_erb__806277408_2183237080_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at Wed Jun 01 10:57:08 +0200 2011
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (4.8ms)
+Completed   in 10ms
+
+ActionView::Template::Error (undefined method `start_form_tag' for #<#<Class:0x104274368>:0x104272770>):
+    1: <%= start_form_tag :action => 'send_contact_form'  %>
+    2:   
+    3:     <h2>Name:</h2>        
+    4:     <%= text_field "author", "name" %>
+  app/views/pages/contact.html.erb:1:in `_app_views_pages_contact_html_erb__806277408_2182317600_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at Wed Jun 01 10:57:10 +0200 2011
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (6.1ms)
+Completed   in 11ms
+
+ActionView::Template::Error (undefined method `start_form_tag' for #<#<Class:0x1044a4638>:0x1044a29c8>):
+    1: <%= start_form_tag :action => 'send_contact_form'  %>
+    2:   
+    3:     <h2>Name:</h2>        
+    4:     <%= text_field "author", "name" %>
+  app/views/pages/contact.html.erb:1:in `_app_views_pages_contact_html_erb__806277408_2183464520_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at Wed Jun 01 10:58:41 +0200 2011
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (4.9ms)
+Completed   in 10ms
+
+ActionView::Template::Error (undefined method `start_form_tag' for #<#<Class:0x1042fff80>:0x1042fe388>):
+    1: <%= start_form_tag :action => 'send_contact_form'  %>
+    2:   
+    3:     <h2>Name:</h2>        
+    4:     <%= text_field "author", "name" %>
+  app/views/pages/contact.html.erb:1:in `_app_views_pages_contact_html_erb__806277408_2182603820_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 11:01:56 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (55.1ms)
+Completed 200 OK in 60ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/my_mailer" for 127.0.0.1 at Wed Jun 01 11:01:57 +0200 2011
+  Processing by PagesController#my_mailer as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/my_mailer.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/my_mailer" for 127.0.0.1 at Wed Jun 01 11:02:07 +0200 2011
+  Processing by PagesController#my_mailer as HTML
+  Parameters: {"comment"=>{"name"=>"a", "subject"=>"a", "message"=>"hola caracola", "email"=>"info@usabi.es"}, "commit"=>"Send"}
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/my_mailer.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/my_mailer" for 127.0.0.1 at Wed Jun 01 11:03:22 +0200 2011
+  Processing by PagesController#my_mailer as HTML
+  Parameters: {"comment"=>{"name"=>"a", "subject"=>"a", "message"=>"hola", "email"=>"info@usabi.es"}, "commit"=>"Send"}
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/my_mailer.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
