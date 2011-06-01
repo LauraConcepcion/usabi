@@ -1,47 +1,54 @@
 <%= render 'layouts/promotion' %>
 
 <h1>
-	Página web, su negocio en Internet
+	Su negocio en Internet
 </h1> 
 <p>
 La solución para que su negocio tenga presencia en Internet. 
 
-<ul>Pasos en la creación de su página web.
-	<li>Nos reunimos y nos comentas cómo quieres la web, te enseñaremos plantillas
-	para que elijas la que más te guste. Podrás decidir sobre un menú extenso de opciones,
-	sobre colores, fotos, logotipos, etc. Nos comentarás qué nombre quieres que tenga, tipo de 
-	contenidos y finalidad.</li>
-	<li>Te presentamos una primera versión, que podrás probar directamente desde tu casa</li>
-	<li>Cuando esté a tu gusto, publicamos</li>
-</ul>
+Podrás elegir entre las siguientes soluciones.Si tus necesidades no entran en ninguna de las soluciones propuestas, o está a medio camino entre una
+y otra, no dudes en ponerte en 	<%= link_to "contacto", new_support_path %>
+ con nosotros para encontrar el mejor presupuesto.
+<br />
+<div class="columna2" style="float: left">
+	<h3>Web Mini: desde 50€ </h3>
+	Creación de una página principal + un formulario de contacto.<br>
+	<%= link_to promocion %> 
+</div>
 
-Podrás elegir entre las siguientes soluciones.
-<ul> Web Mini: desde 50€
-	<li>Creación de una página principal + un formulario de contacto. </li>
-</ul>
-<ul> Web Básica: desde 170€
-	<li>Creación de un apágina principal + 3 apartados de contenido + formulario de contacto </li>
-</ul>
-<ul> Web Estándar: desde 300€
-	<li>Creación de un apágina principal + 10 apartados de contenido + formulario de contacto </li>
-</ul>
-<ul> Web Empresa: desde 700€
-	<li>Creación de un apágina principal + 
+<div class="columna2" style="float: right">
+	<h3>Web Básica: desde 170€</h3>
+	Creación de un apágina principal + 3 apartados de contenido + formulario de contacto <br>
+	<%= link_to plantilla1 %>
+</div>
+<div class="columna2" style="float: left">
+	<h3>Web Estándar: desde 300€</h3>
+	Creación de un apágina principal + 10 apartados de contenido + formulario de contacto <br>
+
+	<%= link_to plantilla2 %>
+</div>
+<div class="columna2" style="float: right">
+	<h3>Web Empresa: desde 700€</h3>
+	Creación de un apágina principal + 
 	15 apartados de contenido + formulario de contacto + Boletín de noticias
 	+ Enlaces a redes sociales Facebook y Twitter + Optimización para el posicionamiento web
-	+ Disponibilidad de dos idiomas (no incluye la traducción) </li>
-</ul>
-<ul> Web Empresa: desde 600€
-	<li>Funcionalidad para gestionar un catálogo de productos y su venta por Internet. Desde 
+	+ Disponibilidad de dos idiomas (no incluye la traducción) <br>
+
+	<%= link_to plantilla3 %>
+</div>
+<div class="columna2" style="float: left">
+	<h3>Tienda online: desde 600€</h3>
+	Funcionalidad para gestionar un catálogo de productos y su venta por Internet. Desde 
 	su web podrá realizar la gestión de los clientes, la gestión de los pedidos, la gestión de las
-	facturas, las formas de pago, etc.</li>
-</ul>
-<ul> Web Personalizada: dependiendo del proyecto
-	<li>Selección de los requisitos de la web por parte del cliente. La construcción de la web se
-	realiza desde cero, sin plantillas y a medida según las especificaciones que usted nos indique</li>
-</ul>
+	facturas, las formas de pago, etc.<br>
+	<%= link_to plantilla4 %>
+</div>
+<div class="columna2" style="float: right">
+	<h3>Web Personalizada: dependiendo del proyecto</h3>
+	Selección de los requisitos de la web por parte del cliente. La construcción de la web se
+	realiza desde cero, sin plantillas y a medida según las especificaciones que usted nos indique. <br>
 
-Si tus necesidades no entran en ninguna de las soluciones propuestas, o está a medio camino entre una
-y otra, no dudes en ponerte en contacto con nostros para encontrar el mejor presupuesto.
-
+	<%= link_to plantilla5 %>
+</div>
 </p>
+
