@@ -1,7 +1,7 @@
 FisioApp::Application.routes.draw do
   
-  match '/my_mailer', :to =>'pages#my_mailer'
-	match '/signup', :to => 'users#new'
+  resources :supports, :only => [:new, :create]
+  
 	match '/servicios', :to => 'pages#servicios' 
 	match '/aplicacionesweb',	:to => 'pages#aplicacionesweb' 
 	match '/servicios', :to => 'pages#servicios' 

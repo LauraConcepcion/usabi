@@ -13441,3 +13441,1610 @@ Rendered layouts/_header.html.erb (2.3ms)
 Rendered layouts/_footer.html.erb (0.2ms)
 Rendered pages/my_mailer.html.erb within layouts/application (10.0ms)
 Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/my_mailer" for 127.0.0.1 at Wed Jun 01 11:14:09 +0200 2011
+  Processing by PagesController#my_mailer as HTML
+  Parameters: {"comment"=>{"name"=>"a", "subject"=>"a", "message"=>"hola", "email"=>"bruxa.bruxa@gmail.com"}, "commit"=>"Send"}
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/my_mailer.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/my_mailer" for 127.0.0.1 at Wed Jun 01 11:23:38 +0200 2011
+  Processing by PagesController#my_mailer as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/my_mailer.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/my_mailer" for 127.0.0.1 at Wed Jun 01 11:23:44 +0200 2011
+  Processing by PagesController#my_mailer as HTML
+  Parameters: {"comment"=>{"name"=>"a", "subject"=>"a", "message"=>"a", "email"=>"info@usabi.es"}, "commit"=>"Send"}
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/my_mailer.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/my_mailer" for 127.0.0.1 at Wed Jun 01 11:29:28 +0200 2011
+  Processing by PagesController#my_mailer as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/my_mailer.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 11:29:32 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/my_mailer" for 127.0.0.1 at Wed Jun 01 11:29:33 +0200 2011
+  Processing by PagesController#my_mailer as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/my_mailer.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/my_mailer" for 127.0.0.1 at Wed Jun 01 11:30:39 +0200 2011
+  Processing by PagesController#my_mailer as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/my_mailer.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/my_mailer" for 127.0.0.1 at Wed Jun 01 11:30:49 +0200 2011
+  Processing by PagesController#my_mailer as HTML
+  Parameters: {"comment"=>{"name"=>"a", "subject"=>"a", "message"=>"hola", "email"=>"bruxa.bruxa@gmail.com"}, "commit"=>"Send"}
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/my_mailer.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/my_mailer" for 127.0.0.1 at Wed Jun 01 11:31:16 +0200 2011
+  Processing by PagesController#my_mailer as HTML
+  Parameters: {"comment"=>{"name"=>"a", "subject"=>"a", "message"=>"jpña", "email"=>"info@usabi.es"}, "commit"=>"Send"}
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/my_mailer.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:19:38 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2177489160_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (53.4ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (11.5ms)
+Rendered supports/new.html.erb within layouts/application (73.2ms)
+Completed   in 82ms
+
+ActionView::Template::Error (undefined local variable or method `my_mailer_path' for #<#<Class:0x103949248>:0x103947240>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul><%= link_to "Contacto", my_mailer_path %></ul> 
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2177186560_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2177506760_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.1ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:20:15 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175330600_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.9ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (60.2ms)
+Rendered supports/new.html.erb within layouts/application (70.9ms)
+Completed   in 79ms
+
+ActionView::Template::Error (undefined local variable or method `suport_path' for #<#<Class:0x1035278e0>:0x103525ba8>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul><%= link_to "Contacto", suport_path %></ul> 
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2175186460_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2175341900_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:20:35 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2176697620_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.7ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (7.9ms)
+Rendered supports/new.html.erb within layouts/application (18.7ms)
+Completed   in 26ms
+
+ActionView::Template::Error (undefined local variable or method `new_suport_path' for #<#<Class:0x1037c8180>:0x1037c4d78>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul><%= link_to "Contacto", new_suport_path %></ul> 
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2176287660_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2176703820_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.2ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:23:42 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2177524220_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (3.9ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (9.0ms)
+Rendered supports/new.html.erb within layouts/application (18.5ms)
+Completed   in 26ms
+
+ActionView::Template::Error (undefined local variable or method `suport_path' for #<#<Class:0x10396d440>:0x10395e620>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul><%= link_to "Contacto", suport_path %></ul> 
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2177252380_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2177538580_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:23:49 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175400460_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.3ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (61.0ms)
+Rendered supports/new.html.erb within layouts/application (70.9ms)
+Completed   in 78ms
+
+ActionView::Template::Error (undefined local variable or method `suport_path' for #<#<Class:0x103548018>:0x103545d90>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul><%= link_to "Contacto", suport_path %></ul> 
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2175228060_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2175406760_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:23:55 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2176801020_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.3ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (8.8ms)
+Rendered supports/new.html.erb within layouts/application (19.7ms)
+Completed   in 27ms
+
+ActionView::Template::Error (undefined local variable or method `suports_path' for #<#<Class:0x1037f8588>:0x1037f5cc0>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul><%= link_to "Contacto", suports_path %></ul> 
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2176486020_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2176816280_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:24:14 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2178194260_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.2ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (7.9ms)
+Rendered supports/new.html.erb within layouts/application (18.9ms)
+Completed   in 27ms
+
+ActionView::Template::Error (undefined local variable or method `suports_path' for #<#<Class:0x103aa0ad8>:0x103a9ef30>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul><%= link_to "Contacto", suports_path %></ul> 
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2177959000_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2178206080_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:24:14 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2176103900_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.2ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (8.2ms)
+Rendered supports/new.html.erb within layouts/application (18.3ms)
+Completed   in 26ms
+
+ActionView::Template::Error (undefined local variable or method `suports_path' for #<#<Class:0x1036a3fc0>:0x1036a1310>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul><%= link_to "Contacto", suports_path %></ul> 
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2175788160_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2176116060_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (56.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (60.7ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:26:47 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2176930120_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.1ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (7.6ms)
+Rendered supports/new.html.erb within layouts/application (17.4ms)
+Completed   in 25ms
+
+ActionView::Template::Error (undefined local variable or method `new_suports_path' for #<#<Class:0x10383cbc0>:0x103839e20>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul><%= link_to "Contacto", new_suports_path %></ul> 
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2176691760_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2176940080_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:27:13 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2178217020_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.1ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (7.7ms)
+Rendered supports/new.html.erb within layouts/application (17.2ms)
+Completed   in 80ms
+
+ActionView::Template::Error (undefined local variable or method `new_supports_path' for #<#<Class:0x103aa67a8>:0x103aa4c00>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul><%= link_to "Contacto", new_supports_path %></ul> 
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2177970500_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2178223280_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:27:42 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175468660_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.4ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (7.7ms)
+Rendered supports/new.html.erb within layouts/application (17.7ms)
+Completed   in 26ms
+
+ActionView::Template::Error (undefined local variable or method `new_supports_path' for #<#<Class:0x103568cf0>:0x103567148>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul><%= link_to "Contacto", new_supports_path %></ul> 
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2175271540_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2175475760_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:27:43 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2177077880_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (7.4ms)
+Rendered supports/new.html.erb within layouts/application (17.3ms)
+Completed   in 25ms
+
+ActionView::Template::Error (undefined local variable or method `new_supports_path' for #<#<Class:0x103897700>:0x1038904a0>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul><%= link_to "Contacto", new_supports_path %></ul> 
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2176820540_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2177128220_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.7ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:27:44 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175065780_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (56.2ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (7.6ms)
+Rendered supports/new.html.erb within layouts/application (69.7ms)
+Completed   in 78ms
+
+ActionView::Template::Error (undefined local variable or method `new_supports_path' for #<#<Class:0x1034a51b0>:0x1034a3018>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul><%= link_to "Contacto", new_supports_path %></ul> 
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2178206500_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2175073480_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:27:44 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2176245900_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.4ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (7.5ms)
+Rendered supports/new.html.erb within layouts/application (19.2ms)
+Completed   in 28ms
+
+ActionView::Template::Error (undefined local variable or method `new_supports_path' for #<#<Class:0x1036e9700>:0x1036e7b08>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul><%= link_to "Contacto", new_supports_path %></ul> 
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2175931720_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2176261620_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:27:45 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2177867900_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.2ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (7.6ms)
+Rendered supports/new.html.erb within layouts/application (17.5ms)
+Completed   in 25ms
+
+ActionView::Template::Error (undefined local variable or method `new_supports_path' for #<#<Class:0x103a078d8>:0x103a00a88>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul><%= link_to "Contacto", new_supports_path %></ul> 
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2177534080_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2177883740_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:27:56 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175518880_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.2ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 12:28:13 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"lH+ftDUqgpYP16kDAffg7SOkhQfE1rspPfEIdS4B610=", "utf8"=>"✓", "support"=>{"support_type"=>"Idea", "content"=>"hloa", "sender_name"=>"a", "email"=>"info@usabi.es"}}
+
+Sent mail to administrator@yourdomain.com (2217ms)
+Date: Wed, 01 Jun 2011 12:28:13 +0200
+From: info@usabi.es
+To: administrator@yourdomain.com
+Message-ID: <4de6143d75a65_41ab81d6340042367@iMac-de-inion.local.mail>
+Subject: New Idea
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 2261ms
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 12:28:15 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.8ms)
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 12:29:19 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"lH+ftDUqgpYP16kDAffg7SOkhQfE1rspPfEIdS4B610=", "utf8"=>"✓", "support"=>{"support_type"=>"Idea", "content"=>"hloa", "sender_name"=>"a", "email"=>"info@usabi.es"}}
+
+Sent mail to administrator@yourdomain.com (1450ms)
+Date: Wed, 01 Jun 2011 12:29:20 +0200
+From: info@usabi.es
+To: administrator@yourdomain.com
+Message-ID: <4de61480f7ac_41ab81a9e8644247@iMac-de-inion.local.mail>
+Subject: New Idea
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 1523ms
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 12:29:21 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 12:30:54 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"lH+ftDUqgpYP16kDAffg7SOkhQfE1rspPfEIdS4B610=", "utf8"=>"✓", "support"=>{"support_type"=>"Idea", "content"=>"hloa", "sender_name"=>"a", "email"=>"bruxa.bruxa@gmail.com"}}
+
+Sent mail to info@usabi.es (1636ms)
+Date: Wed, 01 Jun 2011 12:30:54 +0200
+From: bruxa.bruxa@gmail.com
+To: info@usabi.es
+Message-ID: <4de614def082b_41ab81be65644251d@iMac-de-inion.local.mail>
+Subject: New Idea
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 1652ms
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 12:30:56 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.9ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (67.5ms)
+Completed 200 OK in 72ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 12:32:30 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"lH+ftDUqgpYP16kDAffg7SOkhQfE1rspPfEIdS4B610=", "utf8"=>"✓", "support"=>{"support_type"=>"Idea", "content"=>"hloa", "sender_name"=>"a", "email"=>"bruxa.bruxa@gmail.com"}}
+
+Sent mail to bruxa.bruxa@gmail.com (1417ms)
+Date: Wed, 01 Jun 2011 12:32:30 +0200
+From: bruxa.bruxa@gmail.com
+To: bruxa.bruxa@gmail.com
+Message-ID: <4de6153e413a5_41ab81cffbbc42670@iMac-de-inion.local.mail>
+Subject: New Idea
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 1434ms
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 12:32:31 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.8ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 14ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 12:45:45 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacto" for 127.0.0.1 at Wed Jun 01 12:47:20 +0200 2011
+
+ActionController::RoutingError (No route matches "/contacto"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at Wed Jun 01 12:47:24 +0200 2011
+
+ActionController::RoutingError (No route matches "/contact"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/notifier/new" for 127.0.0.1 at Wed Jun 01 12:47:44 +0200 2011
+
+ActionController::RoutingError (No route matches "/notifier/new"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/supports" for 127.0.0.1 at Wed Jun 01 12:47:52 +0200 2011
+
+ActionController::RoutingError (No route matches "/supports"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 12:47:55 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2174154700_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.7ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 24ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 12:48:06 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"lH+ftDUqgpYP16kDAffg7SOkhQfE1rspPfEIdS4B610=", "utf8"=>"✓", "support"=>{"support_type"=>"Bug", "content"=>"hola", "sender_name"=>"a", "email"=>"bruxa.bruxa@gmail.com"}}
+
+Sent mail to bruxa.bruxa@gmail.com (1804ms)
+Date: Wed, 01 Jun 2011 12:48:06 +0200
+From: bruxa.bruxa@gmail.com
+To: bruxa.bruxa@gmail.com
+Message-ID: <4de618e6338f5_4ca981926ce83867a@iMac-de-inion.local.mail>
+Subject: New Bug
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 1831ms
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 12:48:08 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.6ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 12:48:38 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"lH+ftDUqgpYP16kDAffg7SOkhQfE1rspPfEIdS4B610=", "utf8"=>"✓", "support"=>{"support_type"=>"Bug", "content"=>"hola", "sender_name"=>"a", "email"=>"bruxa.bruxa@gmail.com"}}
+
+Sent mail to info@usabi.es (1558ms)
+Date: Wed, 01 Jun 2011 12:48:39 +0200
+From: bruxa.bruxa@gmail.com
+To: info@usabi.es
+Message-ID: <4de619073c25e_4cee81acec581323d@iMac-de-inion.local.mail>
+Subject: New Bug
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 1584ms
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 12:48:40 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (1.0ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 12:50:16 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"lH+ftDUqgpYP16kDAffg7SOkhQfE1rspPfEIdS4B610=", "utf8"=>"✓", "support"=>{"support_type"=>"Bug", "content"=>"hola", "sender_name"=>"a", "email"=>"bruxa.bruxa@gmail.com"}}
+
+Sent mail to info@usabi.es (1654ms)
+Date: Wed, 01 Jun 2011 12:50:16 +0200
+From: bruxa.bruxa@gmail.com
+To: info@usabi.es
+Message-ID: <4de61968a8282_4d3c81acec581939a@iMac-de-inion.local.mail>
+Subject: New Bug
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 1681ms
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 12:50:18 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.8ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 12:52:24 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.7ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 14:31:14 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175133220_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (6.4ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.8ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 26ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 14:31:27 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Bug", "content"=>"hola, desde usabi", "sender_name"=>"laura", "email"=>"inion.inion@gmail.com"}}
+
+Sent mail to info@usabi.es (3840ms)
+Date: Wed, 01 Jun 2011 14:31:28 +0200
+From: inion.inion@gmail.com
+To: info@usabi.es
+Message-ID: <4de63120e19_525081acebe0451e@iMac-de-inion.local.mail>
+Subject: New Bug
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 3918ms
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 14:31:31 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 14:57:13 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 14:57:14 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 14:57:16 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.6ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports" for 127.0.0.1 at Wed Jun 01 14:57:18 +0200 2011
+
+ActionController::RoutingError (No route matches "/supports"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 14:57:26 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2174881720_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.2ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (56.6ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Rendered supports/new.html.erb within layouts/application (68.6ms)
+Completed 200 OK in 76ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 14:57:37 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (9.7ms)
+Rendered pages/inicio.html.erb within layouts/application (16.0ms)
+Completed   in 21ms
+
+ActionView::Template::Error (undefined local variable or method `new_supports_path' for #<#<Class:0x103897840>:0x103892a98>):
+    9: 			<li><%= link_to "Servicios web", serviciosweb_path %></li>
+    10: 
+    11: 		</ul>
+    12: 		<ul> <%= link_to "Contacto", new_supports_path %></ul>
+    13: 	</nav></header>
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__1457228857_2176870780_531710'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1901119146_2177088560_0'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 14:57:52 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.6ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 14:57:53 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2177198520_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.2ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 21ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 14:59:06 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175854840_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.1ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 21ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 14:59:31 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2174600600_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.2ms)
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Rendered supports/new.html.erb within layouts/application (70.8ms)
+Completed 200 OK in 78ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 14:59:51 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2176756600_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (3.8ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 21ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 14:59:56 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"", "sender_name"=>"", "email"=>""}}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175108200_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (3.8ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 25ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports" for 127.0.0.1 at Wed Jun 01 15:00:03 +0200 2011
+
+ActionController::RoutingError (No route matches "/supports"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/support_notifications" for 127.0.0.1 at Wed Jun 01 15:00:48 +0200 2011
+
+ActionController::RoutingError (No route matches "/support_notifications"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (57.1ms)
+
+
+Started GET "/support_notification" for 127.0.0.1 at Wed Jun 01 15:00:55 +0200 2011
+
+ActionController::RoutingError (No route matches "/support_notification"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:03:48 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"a", "sender_name"=>"a", "email"=>"a"}}
+
+Sent mail to info@usabi.es (3674ms)
+Date: Wed, 01 Jun 2011 15:03:48 +0200
+From: a
+To: info@usabi.es
+Message-ID: <4de638b4948ba_525081c89a344617@iMac-de-inion.local.mail>
+Subject: New Pregunta
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 3689ms
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 15:03:52 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.6ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.4ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 15:05:20 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2174308760_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (60.0ms)
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (70.0ms)
+Completed 200 OK in 78ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:05:24 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"a", "sender_name"=>"a", "email"=>"a"}}
+
+Sent mail to info@usabi.es (3297ms)
+Date: Wed, 01 Jun 2011 15:05:24 +0200
+From: a
+To: info@usabi.es
+Message-ID: <4de639142d50f_525081a26a1c478e@iMac-de-inion.local.mail>
+Subject: New Pregunta
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 3312ms
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 15:05:27 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.8ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.5ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Rendered pages/inicio.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:05:54 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"a", "sender_name"=>"a", "email"=>"a"}}
+
+Sent mail to info@usabi.es (3114ms)
+Date: Wed, 01 Jun 2011 15:05:54 +0200
+From: a
+To: info@usabi.es
+Message-ID: <4de63932a29d1_525081a2a5a4482b@iMac-de-inion.local.mail>
+Subject: New Pregunta
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2176912680_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.8ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Rendered supports/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 3208ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports" for 127.0.0.1 at Wed Jun 01 15:08:48 +0200 2011
+
+ActionController::RoutingError (No route matches "/supports"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 15:08:52 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175392500_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.1ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 21ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 15:19:45 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 15:19:47 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2174510920_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.9ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 24ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:20:00 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"hola", "sender_name"=>"a", "email"=>"maría@rodríguez"}}
+Rendered notifier/support_notification.html.erb (0.2ms)
+
+Sent mail to info@usabi.es (3708ms)
+Date: Wed, 01 Jun 2011 15:20:01 +0200
+From: =?UTF-8?B?IG1hcsOtYUByb2Ryw61ndWV6?=
+To: info@usabi.es
+Message-ID: <4de63c81137d6_5d9281a42514688ab@iMac-de-inion.local.mail>
+Subject: New Pregunta
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+hello world!
+hola
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175863220_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.8ms)
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 3759ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:21:08 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"hola", "sender_name"=>"", "email"=>""}}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2174887640_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (68.8ms)
+Completed 200 OK in 79ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 15:26:47 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 15:26:50 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2176016960_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.3ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 21ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:26:53 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"a", "sender_name"=>"", "email"=>""}}
+Completed   in 4ms
+
+NameError (undefined local variable or method `support' for #<SupportsController:0x1034e4c70>):
+  app/controllers/supports_controller.rb:8:in `create'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (67.2ms)
+
+
+Started GET "/supports" for 127.0.0.1 at Wed Jun 01 15:27:04 +0200 2011
+
+ActionController::RoutingError (No route matches "/supports"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:27:08 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"a", "sender_name"=>"", "email"=>""}}
+Completed   in 4ms
+
+NoMethodError (undefined method `mail' for #<Support:0x1037edf48>):
+  app/controllers/supports_controller.rb:8:in `create'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.8ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:27:26 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"a", "sender_name"=>"", "email"=>""}}
+Completed   in 4ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/supports_controller.rb:8:in `nil?'
+  app/controllers/supports_controller.rb:8:in `create'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.9ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:30:34 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"a", "sender_name"=>"", "email"=>""}}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2173760340_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (58.3ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (69.5ms)
+Completed 200 OK in 80ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:32:28 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"a", "sender_name"=>"", "email"=>""}}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2176512640_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 24ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:32:33 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"a", "sender_name"=>"", "email"=>""}}
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175130580_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (3.9ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 25ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 15:33:02 +0200 2011
+  Processing by SupportsController#new as HTML
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2177333780_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (4.6ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:33:05 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"a", "sender_name"=>"", "email"=>""}}
+Completed   in 9ms
+
+ActionView::MissingTemplate (Missing template supports/create with {:formats=>[:html], :locale=>[:en, :en], :handlers=>[:erb, :builder, :rjs, :rhtml, :rxml]} in view paths "/Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 15:51:51 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.8ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 15:51:52 +0200 2011
+  Processing by SupportsController#new as HTML
+Rendered shared/_error_messages.html.erb (0.4ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2174286060_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (60.8ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (70.8ms)
+Completed 200 OK in 80ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:51:55 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"", "sender_name"=>"", "email"=>""}}
+Rendered shared/_error_messages.html.erb (3.5ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2176728260_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (8.5ms)
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 30ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:53:44 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"", "sender_name"=>"", "email"=>""}}
+Rendered shared/_error_messages.html.erb (3.1ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175247320_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (8.2ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (74.6ms)
+Completed 200 OK in 86ms (Views: 79.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:54:02 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"", "sender_name"=>"a", "email"=>""}}
+Rendered shared/_error_messages.html.erb (2.3ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2176942700_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (7.5ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered supports/new.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 28ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:54:05 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"", "sender_name"=>"a", "email"=>"a"}}
+Rendered shared/_error_messages.html.erb (1.3ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175523520_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (6.5ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 26ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:54:08 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"a", "sender_name"=>"a", "email"=>"a"}}
+Rendered notifier/support_notification.html.erb (0.2ms)
+
+Sent mail to info@usabi.es (3418ms)
+Date: Wed, 01 Jun 2011 15:54:08 +0200
+From: a
+To: info@usabi.es
+Message-ID: <4de64480bfc9c_62ac81cee8f830391@iMac-de-inion.local.mail>
+Subject: New Pregunta
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+hello world!
+a
+Rendered shared/_error_messages.html.erb (0.4ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175981620_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (6.5ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 3472ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:55:32 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"a", "sender_name"=>"a", "email"=>"a"}}
+Rendered shared/_error_messages.html.erb (1.4ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2174883940_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (6.5ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (71.6ms)
+Completed 200 OK in 81ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 15:55:39 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"a", "sender_name"=>"a", "email"=>"a@a.a.a"}}
+Rendered notifier/support_notification.html.erb (0.2ms)
+
+Sent mail to info@usabi.es (3608ms)
+Date: Wed, 01 Jun 2011 15:55:39 +0200
+From: a@a.a.a
+To: info@usabi.es
+Message-ID: <4de644db70b28_62ac81abf438304c4@iMac-de-inion.local.mail>
+Subject: New Pregunta
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+hello world!
+a
+Rendered shared/_error_messages.html.erb (0.4ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2176002180_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (6.2ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 3650ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 15:59:51 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.8ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 15:59:53 +0200 2011
+  Processing by SupportsController#new as HTML
+Rendered shared/_error_messages.html.erb (0.3ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2177467480_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.4ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 23ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 16:00:02 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"hola", "sender_name"=>"a", "email"=>"a@a.es"}}
+Rendered notifier/support_notification.html.erb (0.2ms)
+
+Sent mail to info@usabi.es (3764ms)
+Date: Wed, 01 Jun 2011 16:00:02 +0200
+From: a@a.es
+To: info@usabi.es
+Message-ID: <4de645e248619_62ac81abf69030530@iMac-de-inion.local.mail>
+Subject: New Pregunta
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+hello world!
+hola
+Rendered shared/_error_messages.html.erb (0.4ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175330440_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (6.6ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 3806ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 16:00:58 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"hola", "sender_name"=>"", "email"=>"a@a.es"}}
+Rendered shared/_error_messages.html.erb (1.4ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2177767320_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (6.3ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 83ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 16:07:26 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"hola", "sender_name"=>"laura", "email"=>"inion.inion@gmail.com"}}
+Rendered notifier/support_notification.html.erb (0.3ms)
+
+Sent mail to info@usabi.es (5390ms)
+Date: Wed, 01 Jun 2011 16:07:26 +0200
+From: inion.inion@gmail.com
+To: info@usabi.es
+Message-ID: <4de6479e67e4d_62ac81bf66a830618@iMac-de-inion.local.mail>
+Subject: New Pregunta
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+hello world!
+hola
+Rendered shared/_error_messages.html.erb (0.4ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175331600_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.8ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 5432ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 16:08:05 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"hola", "sender_name"=>"laura", "email"=>"inion.inion@gmail.com"}}
+Rendered notifier/support_notification.html.erb (0.3ms)
+
+Sent mail to info@usabi.es (3142ms)
+Date: Wed, 01 Jun 2011 16:08:05 +0200
+From: inion.inion@gmail.com
+To: info@usabi.es
+Message-ID: <4de647c545a6a_62ac81a1e9fc30797@iMac-de-inion.local.mail>
+Subject: New Pregunta
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+hello world!
+hola
+Rendered shared/_error_messages.html.erb (0.4ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2176357160_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (6.8ms)
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 3186ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports" for 127.0.0.1 at Wed Jun 01 16:08:11 +0200 2011
+
+ActionController::RoutingError (No route matches "/supports"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 16:08:16 +0200 2011
+  Processing by SupportsController#new as HTML
+Rendered shared/_error_messages.html.erb (0.4ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2174903040_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.5ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 23ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 16:08:22 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"ho", "sender_name"=>"hola", "email"=>"hola"}}
+Rendered shared/_error_messages.html.erb (1.4ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2177246600_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (6.5ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 26ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 16:09:08 +0200 2011
+  Processing by SupportsController#new as HTML
+Rendered shared/_error_messages.html.erb (0.3ms)
+Rendered shared/_error_messages.html.erb (0.4ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175679040_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (5.4ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 25ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 16:09:10 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"", "sender_name"=>"", "email"=>""}}
+Rendered shared/_error_messages.html.erb (3.9ms)
+Rendered shared/_error_messages.html.erb (4.2ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175201740_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:2)
+Rendered supports/_form.html.erb (9.7ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (81.9ms)
+Completed 200 OK in 95ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 16:09:20 +0200 2011
+  Processing by SupportsController#new as HTML
+Rendered shared/_error_messages.html.erb (0.3ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2176080240_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:3)
+Rendered supports/_form.html.erb (4.0ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 23ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/supports" for 127.0.0.1 at Wed Jun 01 16:09:22 +0200 2011
+  Processing by SupportsController#create as HTML
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"t0WY7KWnFtgzglhU16RBXvvJ7q4Yd9wlK49pb/e6/UU=", "utf8"=>"✓", "support"=>{"support_type"=>"Pregunta", "content"=>"", "sender_name"=>"", "email"=>""}}
+Rendered shared/_error_messages.html.erb (4.2ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2174718400_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:3)
+Rendered supports/_form.html.erb (3.9ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (77.1ms)
+Completed 200 OK in 90ms (Views: 81.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/servicios" for 127.0.0.1 at Wed Jun 01 16:09:31 +0200 2011
+  Processing by PagesController#servicios as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (1.9ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/servicios.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/supports/new" for 127.0.0.1 at Wed Jun 01 16:09:32 +0200 2011
+  Processing by SupportsController#new as HTML
+Rendered shared/_error_messages.html.erb (0.3ms)
+DEPRECATION WARNING: <% %> style block helpers are deprecated. Please use <%= %>. (called from _app_views_supports__form_html_erb___2100416548_2175784880_880990 at /Users/inion/Documents/Aptana Studio 3 Workspace/usabi/app/views/supports/_form.html.erb:3)
+Rendered supports/_form.html.erb (4.3ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered supports/new.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 23ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 16:09:33 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.4ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 01 16:09:47 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/inicio.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 73ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/aplicacionesweb" for 127.0.0.1 at Wed Jun 01 16:09:53 +0200 2011
+  Processing by PagesController#aplicacionesweb as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Rendered pages/aplicacionesweb.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 15ms (Views: 15.1ms | ActiveRecord: 0.0ms)

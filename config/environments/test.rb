@@ -31,14 +31,5 @@ FisioApp::Application.configure do
   # config.active_record.schema_format = :sql
 
   # Print deprecation notices to the stderr
-  config.active_support.deprecation = :stderr
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-  :address              => "smtp.gmail.com",
-  :port                 => 587,
-  :domain               => 'usabi.heroku.com',
-  :user_name            => 'bruxa.bruxa',
-  :password             => 'jjfa023',
-  :authentication       => 'plain',
-  :enable_starttls_auto => true  }
+
 end

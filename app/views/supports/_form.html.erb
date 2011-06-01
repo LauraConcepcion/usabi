@@ -1,0 +1,15 @@
+<% # app/views/supports/_form.html.erb %>
+
+<% form_for @support, :url => { :action => "create" }, :html => { :method => :post } do |f| %>
+  <p>
+    <%= f.label "Nombre" %><br>
+    <%= f.text_field :sender_name %> <br>
+    <%= f.label "Email" %><br>
+    <%= f.text_field :email %><br>
+    <%= f.label "Tipo de consulta" %><br>
+    <%= f.select :support_type, options_for_select(["Pregunta", "Idea"]) %><br>
+    <%= f.label "Details" %><br>
+    <%= f.text_area :content %><br>
+    <%= f.submit "Enviar" %>
+  </p>
+<% end %>

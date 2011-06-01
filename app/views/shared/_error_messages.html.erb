@@ -1,0 +1,10 @@
+<% if @support.errors.any? %> 
+	<div id="error_explanation">
+		<h2><%= pluralize(@support.errors.count, "error") %> No se ha enviado el mensaje:</h2>
+		<p>Hay errores en las siguientes celdas:</p> 
+			<ul> <% @support.errors.full_messages.each do |msg| %>
+				<li><%= msg %></li> 
+				<% end %> 
+			</ul>
+	</div> 
+<% end %>
