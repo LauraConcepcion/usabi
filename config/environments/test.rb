@@ -36,7 +36,7 @@ Usabi::Application.configure do
   config.action_mailer.smtp_settings = {
   :address              => "smtp.gmail.com",
   :port                 => 587,
-  :domain               => 'baci.lindsaar.net',
+  :domain               => 'usabi.heroku.com',
   :user_name            => 'bruxa.bruxa',
   :password             => 'jjfa023',
   :authentication       => 'plain',
