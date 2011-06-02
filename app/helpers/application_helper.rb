@@ -33,4 +33,10 @@ module ApplicationHelper
 	 def iphone
     image_tag("iphone-sdk.png", :alt => "Desarrollo para Android/iOs")
   end
+  def facebook
+    image_tag("icono-facebook.png", :alt => "Facebook de Usabi")
+  end
+  def twitter 
+    image_tag("icono-twitter.png", :alt => "Síguenos en Twitter")
+  end
 end
