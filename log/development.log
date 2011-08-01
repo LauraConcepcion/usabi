@@ -16293,3 +16293,153 @@ Rendered layouts/_header.html.erb (1.9ms)
 Rendered layouts/_footer.html.erb (0.5ms)
 Rendered pages/inicio.html.erb within layouts/application (11.1ms)
 Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 02 10:14:02 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.9ms)
+Rendered layouts/_footer.html.erb (0.7ms)
+Rendered pages/inicio.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 02 10:18:04 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.6ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/inicio.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 02 10:19:22 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/inicio.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 02 10:19:33 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/inicio.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 02 10:20:20 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/inicio.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 02 10:20:58 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/inicio.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 02 10:22:04 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/inicio.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 02 10:22:38 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.6ms)
+Rendered layouts/_stylesheets.html.erb (53.9ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/inicio.html.erb within layouts/application (63.9ms)
+Completed 200 OK in 69ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 02 10:23:03 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/inicio.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 02 10:23:26 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.9ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/inicio.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 02 10:24:06 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/inicio.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 02 10:24:19 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/inicio.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 18:09:53 +0200 2011
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 18:10:19 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.9ms)
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+Rendered layouts/_header.html.erb (3.2ms)
+Rendered layouts/_footer.html.erb (1.1ms)
+Rendered pages/inicio.html.erb within layouts/application (42.5ms)
+Completed 200 OK in 70ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 18:12:10 +0200 2011
+  Processing by PagesController#inicio as HTML
+Rendered layouts/_promotion.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/inicio.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)

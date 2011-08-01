@@ -63,7 +63,9 @@ a:visited {
 	list-style: none;
 	vertical-align:top;
 	margin-top: 40px;
-	width: 70px;}nav ul li { 
+	width: 70px;
+	}
+nav ul li { 
 	display: none;
 	border: 3px solid #000;
 }
@@ -200,7 +202,4 @@ nav img {
 .ejemploimg{
 	width: 300px;
 	margin-top: 20px;	
-}
-
-	
 }
